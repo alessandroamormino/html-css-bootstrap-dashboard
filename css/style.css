@@ -37,8 +37,18 @@ body{
 aside{
     width: 150px;
     height: 100%;
-    background-color: blue;
+    background-image: url('../img/sidebar-bg.png');
+    background-color: #001E36;
     /* test */
+    color: white;
+}
+
+aside .aside-button .fa-chart-simple{
+    font-size: 1.2em;
+}
+
+aside .aside-button .fa-signal{
+    font-size: .9em; 
 }
 
 header{
