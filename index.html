@@ -37,7 +37,7 @@
 
     <!-- container -->
     <div class="_container">
-       <aside class="p-4 d-flex flex-column justify-content-between">
+        <aside class="p-4 d-flex flex-column justify-content-between">
             <div class="aside-top">
                 <div class="aside-button py-1">
                     <i class="fa-solid pe-2 fa-house"></i>
@@ -58,8 +58,8 @@
                     <span class="d-none d-lg-inline-block">Admin</span>
                 </div>
             </div>
-       </aside>
-       <main>
+        </aside>
+        <div class="_main-container">
             <header class="d-flex p-3 flex-column flex-md-row">
                 <div class="header-left pe-md-1 flex-grow-1 order-2 order-md-1 pt-3 pt-md-0">
                     <div class="title-section d-flex align-items-center">
@@ -68,11 +68,11 @@
                     </div>
                     <div style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                          <li class="px-0 breadcrumb-item"><button type="button" class="btn btn-sm _btn rounded-4">3 app</button></li>
-                          <li class="px-0 d-lg-none breadcrumb-item active"><button type="button" class="btn btn-sm _btn rounded-4">+</button></li>
-                          <li class="px-0 d-none d-lg-block breadcrumb-item active" aria-current="page"><button type="button" class="btn btn-sm _btn rounded-4">Boolean mobile app</button></li>
-                          <li class="px-0 d-none d-lg-block px-1"><button type="button" class="btn btn-sm _btn rounded-4">Boolean web app</button></li>
-                          <li class="px-0 d-none d-lg-block "><button type="button" class="btn btn-sm _btn rounded-4">Boolean blog app</button></li>
+                            <li class="px-0 breadcrumb-item"><button type="button" class="btn btn-sm _btn rounded-4">3 app</button></li>
+                            <li class="px-0 d-lg-none breadcrumb-item active"><button type="button" class="btn btn-sm _btn rounded-4">+</button></li>
+                            <li class="px-0 d-none d-lg-block breadcrumb-item active" aria-current="page"><button type="button" class="btn btn-sm _btn rounded-4">Boolean mobile app</button></li>
+                            <li class="px-0 d-none d-lg-block px-1"><button type="button" class="btn btn-sm _btn rounded-4">Boolean web app</button></li>
+                            <li class="px-0 d-none d-lg-block "><button type="button" class="btn btn-sm _btn rounded-4">Boolean blog app</button></li>
                         </ol>
                     </div>
                 </div>
@@ -82,7 +82,7 @@
                 </div>
                 <div class="header-right ps-md-5 order-1 order-md-3">
                     <span class="_small px-md-4">Nuovo studente</span>
-
+    
                     <!-- offcanvas -->
                     <button type="button" class="btn btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#offcanvasForm">+</button>
                     <div class="offcanvas offcanvas-end _offcanvas-large" tabindex="-1" id="offcanvasForm" aria-labelledby="offcanvasFormLabel">
@@ -106,8 +106,8 @@
                                     <div class="col mb-3">
                                         <label for="email" class="form-label">Email</label>
                                         <div class="input-group">
-                                          <span class="input-group-text" id="basic-addon2">@</span>
-                                          <input type="text" class="form-control" id="email" aria-describedby="basic-addon2">
+                                            <span class="input-group-text" id="basic-addon2">@</span>
+                                            <input type="text" class="form-control" id="email" aria-describedby="basic-addon2">
                                         </div>
                                     </div>
                                     <div class="col mb-3">
@@ -119,8 +119,8 @@
                                     <div class="col mb-3">
                                         <label for="email1" class="form-label">Indirizzo Email</label>
                                         <div class="input-group">
-                                          <span class="input-group-text" id="basic-addon3">@</span>
-                                          <input type="text" class="form-control" id="email1" aria-describedby="basic-addon3">
+                                            <span class="input-group-text" id="basic-addon3">@</span>
+                                            <input type="text" class="form-control" id="email1" aria-describedby="basic-addon3">
                                         </div>
                                     </div>
                                     <div class="col mb-3">
@@ -159,26 +159,82 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="form-check">
-                                      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                                      <label class="form-check-label" for="invalidCheck">
+                                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                        <label class="form-check-label" for="invalidCheck">
                                         Seleziona per proseguire
-                                      </label>
-                                      <div class="invalid-feedback">
+                                        </label>
+                                        <div class="invalid-feedback">
                                         Devi accettare prima di proseguire.
-                                      </div>
+                                        </div>
                                     </div>
-                                  </div>
-                                  <div class="col-12 mt-3">
+                                    </div>
+                                    <div class="col-12 mt-3">
                                     <button class="btn btn-primary" type="submit">Salva</button>
                                     <button class="btn btn-warning" type="">Svuota</button>
-                                  </div>
+                                    </div>
                             </form>
                         </div>
                     </div>
                     <!-- /offcanvas -->
                 </div>
             </header>
-       </main>
+            <main class="px-3 py-4">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="row">
+                            <div class="col">
+                                 <div class="card">
+                                 <h5 class="card-header">Featured</h5>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Special title treatment</h5>
+                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col">
+                                 <div class="card">
+                                 <h5 class="card-header">Featured</h5>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Special title treatment</h5>
+                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="row">
+                            <div class="col">
+                                 <div class="card">
+                                 <h5 class="card-header">Featured</h5>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Special title treatment</h5>
+                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col">
+                                 <div class="card">
+                                 <h5 class="card-header">Featured</h5>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Special title treatment</h5>
+                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
     </div>
     <!-- /container -->
 

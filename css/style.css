@@ -4,8 +4,11 @@ nav {
     top: 0;
     left: 0;
 
+    z-index: 1;
+
     height: 60px;
     width: 100%;
+    background-color: white;
 }
 
 nav .nav-center .form-outline .fa-solid {
@@ -38,8 +41,6 @@ body{
 /* container */
 ._container{
     height: calc(100vh - 60px);
-    background-color: green;
-    /* test */
     position: relative;
 }
 /* /container */
@@ -49,7 +50,6 @@ aside{
     height: 100%;
     background-image: url('../img/sidebar-bg.png');
     background-color: #001E36;
-    /* test */
     color: white;
 }
 
@@ -61,12 +61,18 @@ aside .aside-button .fa-signal{
     font-size: .9em; 
 }
 
-header{
+._main-container{
     position: absolute;
     top: 0;
     left: 150px;
 
     width: calc(100% - 150px);
+    height: 100%;
+
+    background-color: #F8F9FA;
+}
+
+header {
     background-color: #0072EF;
     color: white;
 }
@@ -90,6 +96,12 @@ header .header-right ._offcanvas-large {
     width: 700px;
 }
 
+/* main */
+main {
+    width: 100%;
+}
+/* /main */
+
 /* /body */
 
 /*  ------------ Responsive ----------- */
@@ -98,7 +110,7 @@ header .header-right ._offcanvas-large {
         width: 70px; 
     }
 
-    header{
+    ._main-container{
         left: 70px;
         width: calc(100% - 70px);
     }
