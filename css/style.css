@@ -86,6 +86,10 @@ header .header-center ._small {
 
 }
 
+header .header-right ._offcanvas-large {
+    width: 700px;
+}
+
 /* /body */
 
 /*  ------------ Responsive ----------- */
