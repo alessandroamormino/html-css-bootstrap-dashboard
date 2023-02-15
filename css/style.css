@@ -2,13 +2,21 @@
 nav {
     height: 70px;
     width: 100%;
-    background-color: red;
     /* test */
 
     position: fixed;
     top: 0;
     left: 0;
 }
+
+nav .nav-center .form-outline .fa-solid {
+    transform: translateY(-50%);
+}
+
+nav .nav-center .form-outline .form-control {
+    padding-left: 1.8em;
+}
+
 /* /Nav */
 
 /* body */
