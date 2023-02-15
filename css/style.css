@@ -1,12 +1,11 @@
 /* Nav */
 nav {
-    height: 60px;
-    width: 100%;
-    /* test */
-
     position: fixed;
     top: 0;
     left: 0;
+
+    height: 60px;
+    width: 100%;
 }
 
 nav .nav-center .form-outline .fa-solid {
@@ -17,13 +16,21 @@ nav .nav-center .form-outline .form-control {
     padding-left: 1.8em;
 }
 
+nav .nav-center .form-outline .form-control::placeholder{
+    font-size: .9em;
+    opacity: .8;
+}
+
 nav .nav-left .mobile-img {
     max-width: 50px;
+}
+
+nav .nav-right .fa-bell {
+    color: #FF8700;
 }
 /* /Nav */
 
 /* body */
-
 body{
     padding-top: 60px;
 }
@@ -70,5 +77,14 @@ header{
 /* /body */
 
 /*  ------------ Responsive ----------- */
+@media screen and (max-width: 991.98px) {
+    aside{
+        width: 70px; 
+    }
 
+    header{
+        left: 70px;
+        width: calc(100% - 70px);
+    }
+}
 /*  ------------ /Responsive ----------- */
