@@ -22,6 +22,7 @@ body{
     height: calc(100vh - 70px);
     background-color: green;
     /* test */
+    position: relative;
 }
 /* /container */
 
@@ -30,6 +31,19 @@ aside{
     height: 100%;
     background-color: blue;
     /* test */
+}
+
+header{
+    width: calc(100% - 70px);
+    height: 120px;
+    background-color: lightblue;
+    /* test */
+
+    position: absolute;
+    top: 0;
+    left: 150px;
+
+    width: calc(100% - 150px);
 }
 
 /* /body */
