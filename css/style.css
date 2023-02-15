@@ -100,6 +100,37 @@ header .header-right ._offcanvas-large {
 main {
     width: 100%;
 }
+
+table {
+    font-size: .9em;
+}
+
+table td > img {
+    width: 30px;
+}
+
+table tr td ._done {
+    padding: .15em .5em;
+    background-color: #008B4F;
+    border-radius: .5em;
+    color: white;
+}
+
+table tr td ._process {
+    padding: .15em .5em;
+    background-color: #FFBE00;
+    border-radius: .5em;
+    color: white;
+}
+
+table tr td ._fail {
+    padding: .15em .5em;
+    background-color: #EE0341;
+    border-radius: .5em;
+    color: white;
+}
+
+
 /* /main */
 
 /* /body */
@@ -116,3 +147,4 @@ main {
     }
 }
 /*  ------------ /Responsive ----------- */
+
