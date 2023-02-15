@@ -62,16 +62,29 @@ aside .aside-button .fa-signal{
 }
 
 header{
-    width: calc(100% - 60px);
-    height: 120px;
-    background-color: lightblue;
-    /* test */
-
     position: absolute;
     top: 0;
     left: 150px;
 
+    height: 120px;
     width: calc(100% - 150px);
+    background-color: #0072EF;
+    color: white;
+}
+
+header .header-left ._btn{
+    background-color: rgba(0, 0, 0, .3);
+    color: white;
+    font-size: .7em;
+}
+
+header .breadcrumb-item+.breadcrumb-item::before {
+    padding: 0 .2em;
+}
+
+header .header-center ._small {
+    font-size: .9em;
+
 }
 
 /* /body */
