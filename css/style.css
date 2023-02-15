@@ -1,0 +1,35 @@
+/* Nav */
+nav {
+    height: 70px;
+    width: 100%;
+    background-color: red;
+    /* test */
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+/* /Nav */
+
+/* body */
+
+body{
+    padding-top: 70px;
+}
+
+/* container */
+._container{
+    height: calc(100vh - 70px);
+    background-color: green;
+    /* test */
+}
+/* /container */
+
+aside{
+    width: 150px;
+    height: 100%;
+    background-color: blue;
+    /* test */
+}
+
+/* /body */
