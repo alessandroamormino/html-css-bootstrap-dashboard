@@ -101,7 +101,7 @@
                         </div>
                         <div class="offcanvas-body">
                             <form action="">
-                                <div class="row">
+                                <div class="row row-cols-1 row-cols-md-2">
                                     <div class="col mb-3">
                                         <label for="name" class="form-label">Nome</label>
                                         <input type="text" class="form-control" id="name">
@@ -111,7 +111,7 @@
                                         <input type="text" class="form-control" id="last-name">
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="row row-cols-1 row-cols-md-2">
                                     <div class="col mb-3">
                                         <label for="email" class="form-label">Email</label>
                                         <div class="input-group">
@@ -126,27 +126,16 @@
                                 </div>
                                 <div class="row">
                                     <div class="col mb-3">
-                                        <label for="email1" class="form-label">Indirizzo Email</label>
-                                        <div class="input-group">
-                                            <span class="input-group-text" id="basic-addon3">@</span>
-                                            <input type="text" class="form-control" id="email1" aria-describedby="basic-addon3">
-                                        </div>
+                                        <label for="address" class="form-label">Indirizzo</label>
+                                        <input type="text" class="form-control" id="address">
                                     </div>
-                                    <div class="col mb-3">
-                                        <label for="exampleInputPassword2" class="form-label">Password</label>
-                                        <input type="password" class="form-control" id="exampleInputPassword2">
-                                    </div>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="address" class="form-label">Indirizzo</label>
-                                    <input type="text" class="form-control" id="address">
                                 </div>
                                 <div class="row">
-                                    <div class="col-6 mb-3">
+                                    <div class="col-md-6 mb-3">
                                         <label for="city" class="form-label">Città</label>
                                         <input type="text" class="form-control" id="city">
                                     </div>
-                                    <div class="col-4 mb-3">
+                                    <div class="col-md-4 mb-3">
                                         <label for="state" class="form-label">Stato</label>
                                         <select class="form-select" id="state">
                                             <option selected>Scegli..</option>
@@ -163,7 +152,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="input-group mb-3">
+                                <div class=" mb-3">
+                                    <label for="inputGroupFile02" class="form-label">Foto</label>
                                     <input type="file" class="form-control" id="inputGroupFile02">
                                 </div>
                                 <div class="col-12">
@@ -405,23 +395,25 @@
                             </div>
                             <div class="row mt-4">
                                 <div class="col">
-                                    <div class="card">
-                                        <img src="img/stats.jpeg" class="card-img-top" alt="stats">
-                                        <div class="card-body">
-                                          <h3 class="card-title">Utenti attivi</h3>
-                                          <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>                                          
-                                        </div>
-                                        <div class="card-footer bg-transparent">
-                                            Gennaio: 1200
-                                        </div>
-                                        <div class="card-footer bg-transparent">
-                                            Febbraio: 800
-                                        </div>
-                                        <div class="card-footer bg-transparent">
-                                            Marzo: 1500
-                                        </div>
-                                        <div class="card-footer bg-transparent py-3">
-                                            <a href="#">Visualizza report approfondito</a>
+                                    <div class="card p-3">
+                                        <div class="card">
+                                            <img src="img/stats.jpeg" class="card-img-top" alt="stats">
+                                            <div class="card-body">
+                                              <h3 class="card-title">Utenti attivi</h3>
+                                              <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>                                          
+                                            </div>
+                                            <div class="card-footer bg-transparent">
+                                                Gennaio: 1200
+                                            </div>
+                                            <div class="card-footer bg-transparent">
+                                                Febbraio: 800
+                                            </div>
+                                            <div class="card-footer bg-transparent">
+                                                Marzo: 1500
+                                            </div>
+                                            <div class="card-footer bg-transparent py-3">
+                                                <a href="#">Visualizza report approfondito</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
