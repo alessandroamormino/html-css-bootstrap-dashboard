@@ -105,6 +105,10 @@ table {
     font-size: .9em;
 }
 
+table thead tr th:first-child {
+    width: auto;
+}
+
 table thead tr th:not(:first-child){
     width: 15%;
 }
@@ -136,6 +140,7 @@ table tr td ._fail {
 
 
 
+
 /* /main */
 
 /* /body */
@@ -158,7 +163,7 @@ table tr td ._fail {
 
 }
 
-@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+@media screen and (min-width: 992px) and (max-width: 1280px) {
     table thead tr th:not(:first-child){
         width: 22%;
     }
@@ -168,6 +173,10 @@ table tr td ._fail {
     table thead tr th:not(:first-child){
         width: 35%;
     }
+
+    /* table thead tr th:first-child {
+        width: 25%;
+    } */
 
 }
 /*  ------------ /Responsive ----------- */
