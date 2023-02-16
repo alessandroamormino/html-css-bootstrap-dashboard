@@ -78,9 +78,9 @@ header {
 }
 
 header .header-left ._btn{
-    background-color: rgba(0, 0, 0, .3);
-    color: white;
-    font-size: .7em;
+    background-color: rgba(0, 0, 0, .2);
+    /* color: white;
+    font-size: .7em; */
 }
 
 header .breadcrumb-item+.breadcrumb-item::before {
