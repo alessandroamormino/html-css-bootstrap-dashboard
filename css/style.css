@@ -157,5 +157,18 @@ table tr td ._fail {
     }
 
 }
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    table thead tr th:not(:first-child){
+        width: 22%;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    table thead tr th:not(:first-child){
+        width: 35%;
+    }
+
+}
 /*  ------------ /Responsive ----------- */
 
