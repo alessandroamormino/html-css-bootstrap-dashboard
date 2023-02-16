@@ -105,6 +105,10 @@ table {
     font-size: .9em;
 }
 
+table thead tr th:not(:first-child){
+    width: 15%;
+}
+
 table td > img {
     width: 30px;
 }
