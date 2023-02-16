@@ -1,14 +1,6 @@
 /* Nav */
 nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-
-    z-index: 1;
-
     height: 60px;
-    width: 100%;
-    background-color: white;
 }
 
 nav .nav-center .form-outline .fa-solid {
@@ -41,16 +33,13 @@ body{
 /* container */
 ._container{
     height: calc(100vh - 60px);
-    position: relative;
 }
 /* /container */
 
 aside{
     width: 150px;
-    height: 100%;
     background-image: url('../img/sidebar-bg.png');
     background-color: #001E36;
-    color: white;
 }
 
 aside .aside-button .fa-chart-simple{
@@ -62,25 +51,17 @@ aside .aside-button .fa-signal{
 }
 
 ._main-container{
-    position: absolute;
-    top: 0;
     left: 150px;
-
     width: calc(100% - 150px);
-    height: 100%;
-
     background-color: #F8F9FA;
 }
 
 header {
     background-color: #0072EF;
-    color: white;
 }
 
 header .header-left ._btn{
     background-color: rgba(0, 0, 0, .2);
-    /* color: white;
-    font-size: .7em; */
 }
 
 header .breadcrumb-item+.breadcrumb-item::before {
@@ -89,7 +70,6 @@ header .breadcrumb-item+.breadcrumb-item::before {
 
 header .header-center ._small {
     font-size: .9em;
-
 }
 
 header .header-right ._offcanvas-large {
@@ -97,9 +77,6 @@ header .header-right ._offcanvas-large {
 }
 
 /* main */
-main {
-    width: 100%;
-}
 
 table {
     font-size: .9em;
@@ -121,26 +98,19 @@ table tr td ._done {
     padding: .15em .5em;
     background-color: #008B4F;
     border-radius: .5em;
-    color: white;
 }
 
 table tr td ._process {
     padding: .15em .5em;
     background-color: #FFBE00;
     border-radius: .5em;
-    color: white;
 }
 
 table tr td ._fail {
     padding: .15em .5em;
     background-color: #EE0341;
     border-radius: .5em;
-    color: white;
 }
-
-
-
-
 /* /main */
 
 /* /body */
@@ -173,11 +143,5 @@ table tr td ._fail {
     table thead tr th:not(:first-child){
         width: 35%;
     }
-
-    /* table thead tr th:first-child {
-        width: 25%;
-    } */
-
 }
 /*  ------------ /Responsive ----------- */
-
