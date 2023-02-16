@@ -141,6 +141,11 @@ table tr td ._fail {
 
 /*  ------------ Responsive ----------- */
 @media screen and (max-width: 991.98px) {
+
+    header .header-right ._offcanvas-large {
+        width: 100%;
+    }
+
     aside{
         width: 70px; 
     }
@@ -149,6 +154,7 @@ table tr td ._fail {
         left: 70px;
         width: calc(100% - 70px);
     }
+
 }
 /*  ------------ /Responsive ----------- */
 
